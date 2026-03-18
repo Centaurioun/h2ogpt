@@ -1,16 +1,16 @@
 # for generate (gradio server) and finetune
 datasets==2.13.0
-sentencepiece==0.1.99
-gradio==3.35.2
+sentencepiece==0.2.1
+gradio==6.7.0
 huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
 docutils==0.20.1
-torch==2.0.1; sys_platform != "darwin" and platform_machine != "arm64"
+torch==2.8.0; sys_platform != "darwin" and platform_machine != "arm64"
 evaluate==0.4.0
 rouge_score==0.1.2
 sacrebleu==2.3.1
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 alt-profanity-check==1.2.2
 better-profanity==0.7.0
 numpy==1.24.3
@@ -20,7 +20,7 @@ loralib==0.1.1
 bitsandbytes==0.39.0
 accelerate==0.20.3
 git+https://github.com/huggingface/peft.git@06fd06a4d2e8ed8c3a253c67d9c3cb23e0f497ad
-transformers==4.30.2
+transformers==4.53.0
 tokenizers==0.13.3
 APScheduler==3.10.1
 
@@ -42,7 +42,7 @@ markdown==3.4.3
 # data and testing
 pytest==7.2.2
 pytest-xdist==3.2.1
-nltk==3.8.1
+nltk==3.9.3
 textstat==0.7.3
 # pandoc==2.3
 pypandoc==1.11; sys_platform == "darwin" and platform_machine == "arm64"
@@ -58,7 +58,7 @@ instructorembedding==1.0.1
 # for gpt4all .env file, but avoid worrying about imports
 python-dotenv==1.0.0
 
-text-generation==0.6.0
+text-generation==0.7.0
 # for tokenization when don't have HF tokenizer
 tiktoken==0.4.0
 # optional: for OpenAI endpoint or embeddings (requires key)
