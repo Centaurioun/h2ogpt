@@ -1,11 +1,11 @@
 datasets==2.12.0
-sentencepiece==0.1.99
-gradio==3.34.0
+sentencepiece==0.2.1
+gradio==6.7.0
 huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
 docutils==0.20.1
-torch==2.0.1
+torch==2.8.0
 evaluate==0.4.0
 rouge_score==0.1.2
 sacrebleu==2.3.1
@@ -34,7 +34,7 @@ markdown==3.4.3
 
 pytest==7.2.2
 pytest-xdist==3.2.1
-nltk==3.8.1
+nltk==3.9.4
 textstat==0.7.3
 pandoc==2.3
 pypandoc_binary==1.11
